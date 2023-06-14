@@ -1,0 +1,212 @@
+@import './base.css';
+@import './hint.css';
+
+.swal2-container {
+  overflow-y: auto;
+  position: fixed !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsl(216.35deg 100% 50%);
+  transition: 0.4s;
+}
+
+.blue {
+  color: hsl(216.35deg 100% 50%);
+}
+
+button:disabled {
+  opacity: 0.5;
+  transition: 0.5s;
+  background: lightgray;
+  cursor: not-allowed !important;
+}
+
+.mh-12 {
+  height: 100% !important;
+}
+
+.mh-11 {
+  height: 92% !important;
+}
+
+.mh-10 {
+  height: 83% !important;
+}
+
+.mh-9 {
+  height: 75% !important;
+}
+
+.mh-8 {
+  height: 67% !important;
+}
+
+.mh-7 {
+  height: 58% !important;
+}
+
+.mh-6 {
+  height: 50% !important;
+}
+
+.mh-5 {
+  height: 42% !important;
+}
+
+.mh-4 {
+  height: 33% !important;
+}
+
+.mh-3 {
+  height: 25% !important;
+}
+
+.mh-2 {
+  width: 17% !important;
+}
+
+.mh-1 {
+  width: 12% !important;
+}
+
+.md-12 {
+  width: 100% !important;
+}
+
+.md-11 {
+  width: 92% !important;
+}
+
+.md-10 {
+  width: 83% !important;
+}
+
+.md-9 {
+  width: 75% !important;
+}
+
+.md-8 {
+  width: 67% !important;
+}
+
+.md-7 {
+  width: 58% !important;
+}
+
+.md-6 {
+  width: 50% !important;
+}
+
+.md-5 {
+  width: 42% !important;
+}
+
+.md-4 {
+  width: 33% !important;
+}
+
+.md-3 {
+  width: 25% !important;
+}
+
+.md-2 {
+  width: 17% !important;
+}
+
+.md-1 {
+  width: 12% !important;
+}
+
+.icon {
+  width: 1.8rem;
+}
+
+.input {
+  padding-left: 1.5rem;
+  border-radius: 25px;
+  font-weight: normal;
+  font-size: 1.25rem;
+  border: 1px solid lightgray;
+  color: black;
+  letter-spacing: 0.8px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.align-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.align-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.align-justify {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.link {
+  transition: 0.5s;
+}
+.link:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: lightgray;
+}
+
+.black {
+  color: hsl(0deg 0% 0%);
+}
+
+.border-right {
+  border-right: 1px solid gray;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+}
